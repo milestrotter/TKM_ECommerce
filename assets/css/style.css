@@ -1,0 +1,160 @@
+/**{
+	outline: 1px solid black;
+}*/
+body {
+	background-color: #fff;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+	padding: 70px;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+h4{
+	margin: 0;
+}
+/* Nav Bar stylings - includes side navigation*/
+ul{
+	padding: 0 10px;
+}
+	li{
+		list-style-type: none;
+	}
+
+.container{
+	margin: 40px;
+	margin: 0 auto;
+}
+.navbar{
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+/*	background-color: #1A1A1A;*/
+}
+.nav{
+	float: right;
+}
+.product_nav{
+	width: 20%;
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	padding: 10px 0 10px 5px;
+}
+	.product_nav > ul{
+		margin: 10px 0 0 0;
+		padding: 0;
+		margin-left: 10px;
+	}
+		/*End of the nav bar stylings*/	
+	/* This is for the content display*/
+.product_display{
+	margin: 10px;
+	width: 70%;
+	border: 1px solid #D0D0D0;
+}
+.content{
+	padding: 0 0 0 25px;
+}
+.content img{
+	height: 170px;
+	width: 173px;
+	margin: 0;
+}
+.content p{
+	font-size: 20px;
+}
+.item{
+	margin: 10px 5px 0px 5px;
+	height: 200px;
+	width: 175px;
+	border: 1px solid #D0D0D0;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+	display: inline-block;
+	vertical-align: top;
+}
+	.price{
+		/*visibility: hidden;*/
+		background-color: gray;
+		color: black;
+		height: 30px;
+		opacity: 0.5;
+		margin-top: -30px;
+	}
+		.price p{
+			font-size: 20px;
+			color: black;
+			margin: 5px;
+			float: right;
+		}
+/*	.item:active .price{
+		visibility: visible;
+	}
+*/
+.body_header ul, .body_header h2{
+	display: inline-block;
+	margin: 20px;
+}
+.body_header ul{
+	float: right;
+}
+/* End of the Main Page display of items*/
+/* Item view sytlings*/
+.item_display{
+	/*text-align: center;*/
+
+}
+img{
+	height: 250px;
+	width: 200px;
+	margin: 20px 30px;
+	display: block;
+}
+.description{
+	margin-top: 80px;
+	font-size: 20px;
+}
+.small{
+	height: 70px;
+	width: 60px;
+	display: inline-block;
+	margin: 0px;
+}
+/* End of Item view stylings*/
+/*Begin the orders view page*/
+table{
+	width: 90%;
+}
+.billing input[type=text], .shipping input[type=text]{
+	float: right;
+	vertical-align: top;
+}
+.billing{
+	margin-left: 60px;
+}
+.table_summary{
+	font-weight: bold;
+	font-size: 20px;
+	float: right;
+	margin-right: 50px;
+}
+.shipping p:nth-child(2){
+	margin-top: 43px;
+}
+.credit_card{
+	width: 250px;
+}
+p select, .credit_card input{
+	float: right;
+}
+.credit_card h2{
+	margin-bottom: 40px;
+}
+.credit_card p, .credit_card .btn{
+	margin: 10px 0 0 0;
+}
+/*End the orders view page*/
